@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 2e8dc9bf7c4ca35468b51452ccad6081
+timeCreated: 1458350039
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm_L
+    100002: arm_L_IK
+    100004: arm_L_IK_end
+    100006: arm_L_IK_Pole
+    100008: arm_L_IK_Pole_end
+    100010: arm_R
+    100012: arm_R_IK
+    100014: arm_R_IK_end
+    100016: arm_R_IK_Pole
+    100018: arm_R_IK_Pole_end
+    100020: Armature
+    100022: AstroMan
+    100024: //RootNode
+    100026: chest_L
+    100028: chest_R
+    100030: elbow_L
+    100032: elbow_R
+    100034: feet_L
+    100036: feet_L_end
+    100038: feet_R
+    100040: feet_R_end
+    100042: hand_L
+    100044: hand_L_end
+    100046: hand_R
+    100048: hand_R_end
+    100050: head
+    100052: head_end
+    100054: knee_L
+    100056: knee_R
+    100058: leg_L
+    100060: leg_L_IK
+    100062: leg_L_IK_end
+    100064: leg_L_IK_Pole
+    100066: leg_L_IK_Pole_end
+    100068: leg_R
+    100070: leg_R_IK
+    100072: leg_R_IK_end
+    100074: leg_R_IK_Pole
+    100076: leg_R_IK_Pole_end
+    100078: neck
+    100080: punch
+    100082: root
+    100084: taz_L
+    100086: taz_R
+    400000: arm_L
+    400002: arm_L_IK
+    400004: arm_L_IK_end
+    400006: arm_L_IK_Pole
+    400008: arm_L_IK_Pole_end
+    400010: arm_R
+    400012: arm_R_IK
+    400014: arm_R_IK_end
+    400016: arm_R_IK_Pole
+    400018: arm_R_IK_Pole_end
+    400020: Armature
+    400022: AstroMan
+    400024: //RootNode
+    400026: chest_L
+    400028: chest_R
+    400030: elbow_L
+    400032: elbow_R
+    400034: feet_L
+    400036: feet_L_end
+    400038: feet_R
+    400040: feet_R_end
+    400042: hand_L
+    400044: hand_L_end
+    400046: hand_R
+    400048: hand_R_end
+    400050: head
+    400052: head_end
+    400054: knee_L
+    400056: knee_R
+    400058: leg_L
+    400060: leg_L_IK
+    400062: leg_L_IK_end
+    400064: leg_L_IK_Pole
+    400066: leg_L_IK_Pole_end
+    400068: leg_R
+    400070: leg_R_IK
+    400072: leg_R_IK_end
+    400074: leg_R_IK_Pole
+    400076: leg_R_IK_Pole_end
+    400078: neck
+    400080: punch
+    400082: root
+    400084: taz_L
+    400086: taz_R
+    4300000: AstroMan
+    7400000: Armature|Idle
+    7400002: Armature|Running
+    7400004: Armature|Running.001
+    7400006: AstroMan|Running.001
+    9500000: //RootNode
+    13700000: AstroMan
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 248
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/arm_L_IK
+        weight: 1
+      - path: Armature/root/arm_L_IK/arm_L_IK_end
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole/arm_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/arm_R_IK
+        weight: 1
+      - path: Armature/root/arm_R_IK/arm_R_IK_end
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole/arm_R_IK_Pole_end
+        weight: 1
+      - path: Armature/root/chest_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L/hand_L_end
+        weight: 1
+      - path: Armature/root/chest_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R/hand_R_end
+        weight: 1
+      - path: Armature/root/neck
+        weight: 1
+      - path: Armature/root/neck/head
+        weight: 1
+      - path: Armature/root/neck/head/head_end
+        weight: 1
+      - path: Armature/root/punch
+        weight: 1
+      - path: Armature/root/punch/taz_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L/feet_L_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK/leg_L_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole/leg_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/punch/taz_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R/feet_R_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK/leg_R_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole/leg_R_IK_Pole_end
+        weight: 1
+      - path: AstroMan
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Running
+      takeName: Armature|Running
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/arm_L_IK
+        weight: 1
+      - path: Armature/root/arm_L_IK/arm_L_IK_end
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole/arm_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/arm_R_IK
+        weight: 1
+      - path: Armature/root/arm_R_IK/arm_R_IK_end
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole/arm_R_IK_Pole_end
+        weight: 1
+      - path: Armature/root/chest_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L/hand_L_end
+        weight: 1
+      - path: Armature/root/chest_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R/hand_R_end
+        weight: 1
+      - path: Armature/root/neck
+        weight: 1
+      - path: Armature/root/neck/head
+        weight: 1
+      - path: Armature/root/neck/head/head_end
+        weight: 1
+      - path: Armature/root/punch
+        weight: 1
+      - path: Armature/root/punch/taz_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L/feet_L_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK/leg_L_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole/leg_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/punch/taz_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R/feet_R_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK/leg_R_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole/leg_R_IK_Pole_end
+        weight: 1
+      - path: AstroMan
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Running.001
+      takeName: Armature|Running.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/arm_L_IK
+        weight: 1
+      - path: Armature/root/arm_L_IK/arm_L_IK_end
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole/arm_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/arm_R_IK
+        weight: 1
+      - path: Armature/root/arm_R_IK/arm_R_IK_end
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole/arm_R_IK_Pole_end
+        weight: 1
+      - path: Armature/root/chest_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L/hand_L_end
+        weight: 1
+      - path: Armature/root/chest_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R/hand_R_end
+        weight: 1
+      - path: Armature/root/neck
+        weight: 1
+      - path: Armature/root/neck/head
+        weight: 1
+      - path: Armature/root/neck/head/head_end
+        weight: 1
+      - path: Armature/root/punch
+        weight: 1
+      - path: Armature/root/punch/taz_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L/feet_L_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK/leg_L_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole/leg_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/punch/taz_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R/feet_R_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK/leg_R_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole/leg_R_IK_Pole_end
+        weight: 1
+      - path: AstroMan
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AstroMan|Running.001
+      takeName: AstroMan|Running.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/arm_L_IK
+        weight: 1
+      - path: Armature/root/arm_L_IK/arm_L_IK_end
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_L_IK_Pole/arm_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/arm_R_IK
+        weight: 1
+      - path: Armature/root/arm_R_IK/arm_R_IK_end
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole
+        weight: 1
+      - path: Armature/root/arm_R_IK_Pole/arm_R_IK_Pole_end
+        weight: 1
+      - path: Armature/root/chest_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: Armature/root/chest_L/arm_L/elbow_L/hand_L/hand_L_end
+        weight: 1
+      - path: Armature/root/chest_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: Armature/root/chest_R/arm_R/elbow_R/hand_R/hand_R_end
+        weight: 1
+      - path: Armature/root/neck
+        weight: 1
+      - path: Armature/root/neck/head
+        weight: 1
+      - path: Armature/root/neck/head/head_end
+        weight: 1
+      - path: Armature/root/punch
+        weight: 1
+      - path: Armature/root/punch/taz_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L/knee_L/feet_L/feet_L_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK/leg_L_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_L/leg_L_IK_Pole/leg_L_IK_Pole_end
+        weight: 1
+      - path: Armature/root/punch/taz_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R/knee_R/feet_R/feet_R_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK/leg_R_IK_end
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole
+        weight: 1
+      - path: Armature/root/punch/taz_R/leg_R_IK_Pole/leg_R_IK_Pole_end
+        weight: 1
+      - path: AstroMan
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
